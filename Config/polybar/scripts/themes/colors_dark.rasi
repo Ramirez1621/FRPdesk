@@ -1,0 +1,10 @@
+* {
+    foreground:                 #000000; /* Color de texto (negro) */
+    background-main:            #2C3E50; /* Color de fondo principal (azul oscuro) */
+    background-inputbar:        #34495E; /* Color de fondo del inputbar (azul oscuro más claro) */
+    background-entry:           #95A5A6; /* Color de fondo del entry (gris oscuro) */
+    border:                     #7F8C8D; /* Color del borde (gris azulado) */
+    selected-background:        #9B59B6; /* Color de fondo para elementos seleccionados (violeta oscuro) */
+    selected-text:              #FFFFFF; /* Color de texto para elementos seleccionados (blanco) */
+}
+

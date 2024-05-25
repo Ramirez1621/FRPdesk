@@ -1,0 +1,105 @@
+
+
+@import "colors_dark.rasi"
+
+configuration {
+    font:                           "Iosevka Nerd Font 10";
+    show-icons:                     true;
+    icon-theme:                     "Papirus";
+    display-drun:                   "";
+    drun-display-format:            " {name}";
+    threads:                        0;
+    scroll-method:                  0;
+    disable-history:                false;
+    fullscreen:                     false;
+    hide-scrollbar:                 true;
+    sidebar-mode:                   false;
+    location:                       8;
+    text-color:                     @foreground;
+}
+
+window {
+    background-color:               @background-main;
+    text-color:                     @foreground;
+    border-radius:                  20px;
+    height:                         31%;
+    width:                          17%;
+    x-offset:                       15;
+    y-offset:                       10;
+}
+
+prompt {
+    background-color:               @background-entry;
+    enabled:                        true;
+    padding:                        4px 6px 6px 10px;
+}
+
+inputbar {
+    children:                       [ prompt, entry ];
+    expand:                         false;
+    border:                         1px 1px 1px 1px;
+    border-radius:                  20px;
+    border-color:                   @border;
+    margin:                         0px 0px 0px 0px;
+    padding:                        0px 0px 0px 0px;
+    position:                       center;
+    background-color:               @background-inputbar;
+    text-color:                     @foreground;
+}
+
+
+entry {
+    background-color:               @background-entry;
+    text-color:                     @foreground;
+    expand:                         true;
+    horizontal-align:               0;
+    placeholder:                    " Search";
+    blink:                          true;
+    padding:                        5px 0px 0px 7px;
+}
+
+listview {
+    background-color:               @background-main;
+    columns:                        1;
+    spacing:                        2px;
+    cycle:                          false;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    background-color:               @background-main;
+    children:                       [ inputbar, listview ];
+    spacing:                        5px;
+    padding:                        5px 5px 5px 5px;
+}
+
+element {
+    background-color:               @background-main;
+    orientation:                    horizontal;
+    border-radius:                  20px;
+    padding:                        6px 6px 6px 6px;
+}
+
+element-icon {
+    background-color:               transparent;
+    size:                           24px;
+    border:                         0px;
+}
+
+element-text {
+    background-color:               transparent;
+    expand:                         true;
+    horizontal-align:               0;
+    vertical-align:                 0;
+    margin:                         2px 0px 2px 2px;
+}
+
+element selected {
+    background-color:               @selected-background;
+    text-color:                     @selected-text;
+    border:                         1px;
+    border-radius:                  20px;
+    border-color:                   @border;
+}
+

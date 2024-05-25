@@ -1,0 +1,10 @@
+* {
+    foreground:                 #000000; /* Texto siempre negro */
+    background-main:            #AEEEEE; /* Color de fondo principal (azul claro similar al agua del mar) */
+    background-inputbar:        #D8BFD8; /* Color de fondo del inputbar (lila claro) */
+    background-entry:           #06D6A0; /* Color de fondo del entry (verde turquesa) */
+    border:                     #D8BFD8; /* Color del borde (lila claro) */
+    selected-background:        #B0E0E6; /* Color de fondo para elementos seleccionados (Light Blue) */
+    selected-text:              #000000; /* Color de texto para elementos seleccionados (negro) */
+}
+
