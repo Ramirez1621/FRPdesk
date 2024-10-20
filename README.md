@@ -1,6 +1,7 @@
 Configuración de Entorno para Parrot OS con bspwm
 
 Este script de Bash automatiza la configuración de un entorno profesional para Parrot OS utilizando el gestor de ventanas en mosaico bspwm.
+
 Descripción
 
 El script realiza las siguientes acciones:
